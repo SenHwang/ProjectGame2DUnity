@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Server.Vector2">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>ObjectGame\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Server.ObjectGame.AnimationCalledStruct">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAEAAIAAAAACAAAAAAAAAAABACA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="animationType" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Server.ObjectGame.SkillInventory">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAEAgA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="item" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Server.ObjectGame.SkillRec">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkAAAAAJADAAMlEAcgDAAAABQAAEAAAgAwBAAASABAA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerUseable" />
+      <Field Name="positionEnd" />
+      <Field Name="skillSpec" />
+      <Field Name="skillUse" />
+      <Field Name="skillTypes" />
+      <Field Name="positionUsing" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="Server.ObjectGame.SkillUse">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.ObjectGame.PlayerUseable">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAQAAEAAAA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.ObjectGame.SkillTypes">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAEAABAABAAA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.ObjectGame.SkillSpec">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.ObjectGame.AnimationType">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

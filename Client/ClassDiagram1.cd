@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="Assets.Script.Types.Message">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Types\ChatSystem.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Assets.Script.Types.ChatRec">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Script\Types\ChatSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="chatType" />
+      <Field Name="message" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="Assets.Script.Types.ChatType">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAAAAAAAAIAAAAAAABAAAAAAAAAAAAIQAA=</HashCode>
+      <FileName>Assets\Script\Types\ChatSystem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

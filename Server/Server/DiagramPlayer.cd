@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Server.Player">
+    <Position X="3.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>KAQAIAAAgAAAAAQAAAgAsBUAAAAAAiAgAAhARAhQIgA=</HashCode>
+      <FileName>ObjectGame\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="stat" />
+      <Field Name="party" />
+      <Field Name="role" />
+      <Field Name="position" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="items" />
+      <Field Name="skillInven" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Server.Stats">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYABAgAAAAAQAAAAAEAAAwJBAAkAIAAAQABCgAAAAig=</HashCode>
+      <FileName>ObjectGame\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Server.ObjectGame.ItemInventory">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ObjectGame\Items.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Server.GameData.PartyRec">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameData\Party.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Member" />
+    </ShowAsCollectionAssociation>
+  </Struct>
+  <Struct Name="Server.ObjectGame.TypeMonster">
+    <Position X="22.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAiAAAAAAAAAAAAAECAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ObjectGame\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Server.ObjectGame.SkillInventory">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAEAgA=</HashCode>
+      <FileName>ObjectGame\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Server.GameData.MiniPlayer">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAAAAAAAAAAAAIEAAAAAAAAAAABCAAAAAgA=</HashCode>
+      <FileName>GameData\Party.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Server.Vector3">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>ObjectGame\Player.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Server.GameData.Role">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAQQAAEIAAAAIAAAAAAQAAAAA=</HashCode>
+      <FileName>GameData\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.ObjectGame.NPCTypes">
+    <Position X="22.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ObjectGame\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
